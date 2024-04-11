@@ -13,13 +13,13 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="bg-white border-gray-200 dark:bg-gray-900 sticky top-0 z-50">
+            <nav className="bg-white border-gray-200 dark:bg-gray-900 sticky top-0 z-50 md:py-2">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 px-3">
                     <Link
                         to="/"
                         className="flex items-center space-x-3 rtl:space-x-reverse"
                     >
-                        <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-sky-500">
+                        <span className="self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-sky-500">
                             EasyMart
                         </span>
                     </Link>
@@ -31,7 +31,6 @@ const Navbar = () => {
                         aria-controls="navbar-default"
                         aria-expanded="false"
                     >
-                        <span className="sr-only">Open main menu</span>
                         <svg
                             className="w-5 h-5"
                             aria-hidden="true"
